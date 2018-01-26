@@ -1,0 +1,208 @@
+<html>
+    <title>Template</title>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./assets/style.css">
+ <script>
+        function cop(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  alert("Copied!!!");
+}
+        </script>
+    </head>
+<body>
+    <div class="container">
+        <!--Combination of rows-->
+        <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <h1>Ready Made Code System</h1>
+            </div>
+        </div>
+        <div class="row">
+    <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+        <h2 style="color: white;">Navigation bar Bootstrap</h2>
+                <pre><code><strong><p id="nav1">
+                &lt;nav class="navbar navbar-inverse"&gt;
+  &lt;div class="container-fluid"&gt;
+    &lt;div class="navbar-header"&gt;
+      &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt; 
+      &lt;/button&gt;
+      &lt;a class="navbar-brand" href="#"&gt;WebSiteName&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="collapse navbar-collapse" id="myNavbar"&gt;
+      &lt;ul class="nav navbar-nav"&gt;
+        &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Page 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Page 2&lt;/a&gt;&lt;/li&gt; 
+        &lt;li&gt;&lt;a href="#"&gt;Page 3&lt;/a&gt;&lt;/li&gt; 
+      &lt;/ul&gt;
+      &lt;ul class="nav navbar-nav navbar-right"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;span class="glyphicon glyphicon-user"&gt;&lt;/span&gt; Sign Up&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;span class="glyphicon glyphicon-log-in"&gt;&lt;/span&gt; Login&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+&nbsp;
+</p>
+<button id="btn1" onclick="cop('#nav1')">Copy</button></strong></code></pre>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+        <h2 style="color: white;">Simple Navbar CSS</h2>
+            <pre><code>
+    <kbd style="font-size: 30px;">CSS</kbd>
+     <p id="navcss">
+&lt;style&gt;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+&lt;/style&gt;
+</p><hr>
+<button id="btn2" onclick="cop('#navcss')">Copy</button></code></pre>
+</code></pre>
+<pre><code>
+    <kbd style="font-size: 25px;">HTML</kbd>
+    <p id="navhtml">
+&lt;ul&gt;
+  &lt;li&gt;&lt;a class="active" href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#news"&gt;News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</p>
+<button id="btn3" onclick="cop('#navhtml')">Copy</button>
+</code></pre>
+        </div>
+    </div>
+    <!--Row Ends-->
+<hr>
+    <!--New Row-->
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+            <h2 style="color: white;">Logo Linking</h2>
+        <pre><code>
+            <b><p id="logo">
+       &lt;link rel="icon" href="logo.png" type="image/png"/&gt;
+       </p>
+<button id="btn4" onclick="cop('#logo')">Copy</button>
+            </b></code></pre>
+            </div>
+<div class="col-md-6 col-sm-6 col-xs-6 text-center">
+    <h2 style="color: white;">Carousel</h2>
+    <pre><code>
+        <kbd style="font-size: 30px;">CSS</kbd>
+        <p id="caracss">
+        &lt;style&gt;
+        .carousel-inner &gt; .item &gt; img,
+        .carousel-inner &gt; .item &gt; a &gt; img {
+        width: 70%;
+        margin: auto;
+  }
+  &lt;/style&gt;
+  </p>
+  <button id="btn5" onclick="cop('#caracss')">Copy</button>
+  </code>
+  </pre>  
+<pre>
+  <kbd style="font-size: 25px;">HTML</kbd>
+  <p id="carahtml">
+  &lt;div class="container"&gt;
+  &lt;br&gt;
+  &lt;div id="myCarousel" class="carousel slide" data-ride="carousel"&gt;
+    &lt;!-- Indicators --&gt;
+    &lt;ol class="carousel-indicators"&gt;
+      &lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+      &lt;li data-target="#myCarousel" data-slide-to="1"&gt;&lt;/li&gt;
+      &lt;li data-target="#myCarousel" data-slide-to="2"&gt;&lt;/li&gt;
+      &lt;li data-target="#myCarousel" data-slide-to="3"&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;!-- Wrapper for slides --&gt;
+    &lt;div class="carousel-inner" role="listbox"&gt;
+      &lt;div class="item active"&gt;
+        &lt;img src="img_chania.jpg" alt="Chania" width="460" height="345"&gt;
+        &lt;div class="carousel-caption"&gt;
+          &lt;h3&gt;Chania&lt;/h3&gt;
+          &lt;p&gt;The atmosphere in Chania has a touch of Florence and Venice.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="item"&gt;
+        &lt;img src="img_chania2.jpg" alt="Chania" width="460" height="345"&gt;
+        &lt;div class="carousel-caption"&gt;
+          &lt;h3&gt;Chania&lt;/h3&gt;
+          &lt;p&gt;The atmosphere in Chania has a touch of Florence and Venice.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="item"&gt;
+        &lt;img src="img_flower.jpg" alt="Flower" width="460" height="345"&gt;
+        &lt;div class="carousel-caption"&gt;
+          &lt;h3&gt;Flowers&lt;/h3&gt;
+          &lt;p&gt;Beautiful flowers in Kolymbari, Crete.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="item"&gt;
+        &lt;img src="img_flower2.jpg" alt="Flower" width="460" height="345"&gt;
+        &lt;div class="carousel-caption"&gt;
+          &lt;h3&gt;Flowers&lt;/h3&gt;
+          &lt;p&gt;Beautiful flowers in Kolymbari, Crete.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"&gt;
+      &lt;span class="glyphicon glyphicon-chevron-left" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class="sr-only"&gt;Previous&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"&gt;
+      &lt;span class="glyphicon glyphicon-chevron-right" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class="sr-only"&gt;Next&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</p>
+<button id="btn6" onclick="cop('#carahtml')">Copy</button>
+  </code></pre>
+</div>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <a href="https://aravindhsiva.github.io/page.html" target="_blank"><h1>Designed by Aravindh.S</h1></a>
+    </div>
+</div>
+</div>
+</body>
+</html>

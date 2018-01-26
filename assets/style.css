@@ -1,0 +1,79 @@
+.container{
+            font-family: 'Josefin Slab', serif;
+            margin-top: 2%;
+            border: 2px solid black;
+            background-color: teal;
+        }
+        body{
+            background-image: url(back.png);
+        }
+        #btn1, #btn2, #btn3, #btn4, #btn5, #btn6{
+            border:4px solid transparent;
+            color: white;
+            background-color: black;
+            font-size: 20px;
+        }
+        #btn1:hover{
+            border:4px solid black;
+            color: black;
+            background-color: white;
+        }
+        #btn2:hover{
+            border:4px solid black;
+            color: black;
+            background-color: white;
+        }
+        #btn3:hover{
+            border:4px solid black;
+            color: black;
+            background-color: white;
+        }
+        #btn4:hover{
+            border:4px solid black;
+            color: black;
+            background-color: white;
+        }
+        #btn5:hover{
+            border:4px solid black;
+            color: black;
+            background-color: white;
+        }
+        #btn6:hover{
+            border:4px solid black;
+            color: black;
+            background-color: white;
+        }
+        kbd{
+            background-color: black;
+        }
+        h2{
+            font-weight: bold;
+            padding:2%;
+            border:3px solid black;
+        }
+        h2:hover{
+            cursor: pointer;
+            transition-duration: 0.7s;
+            color:black !important;
+            background-color: white;
+        }
+        h1{
+            border:3px solid black;
+            padding: 1%;
+            color: black;
+            background-color: white;
+            font-weight: bold;
+        }
+        h1:hover{
+            cursor:default;
+            transition-duration: 0.7s;
+            color:white;
+            background-color: black;
+        }
+        a{
+            color:black;
+        }
+        a:hover{
+            color:white;;
+            text-decoration: none;
+        }
