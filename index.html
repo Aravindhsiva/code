@@ -1,5 +1,6 @@
 <html>
-    <title>Template</title>
+<title>Template</title>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,31 +9,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./assets/style.css">
-    <link rel="icon" href="./assets/logo.gif" type="image/gif"/>
- <script>
+    <link rel="icon" href="./assets/logo.gif" type="image/gif" />
+    <script>
         function cop(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-  alert("Copied!!!");
-}
-        </script>
-    </head>
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+            alert("Copied!!!");
+        }
+    </script>
+</head>
+
 <body>
     <div class="container">
         <!--Combination of rows-->
         <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-            <h1 style="cursor: pointer;">RCS</h1>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <h1 style="cursor: pointer;">RCS</h1>
             </div>
         </div>
         <!--New Row-->
-         <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-            <h2 style="color: white;">Bootstrap CDN</h2>
-       <pre><code>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <h2 style="color: white;">Bootstrap CDN</h2>
+                <pre><code>
        <b>
        <p id="boot">&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;
 &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"&gt;&lt;/script&gt;
@@ -43,8 +45,8 @@
         </div>
         <!--New Row-->
         <div class="row">
-    <div class="col-md-6 col-sm-6 col-xs-6 text-center">
-        <h2 style="color: white;">Navigation bar Bootstrap</h2>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                <h2 style="color: white;">Navigation bar Bootstrap</h2>
                 <pre><code><strong><p id="nav1">
                 &lt;nav class="navbar navbar-inverse"&gt;
   &lt;div class="container-fluid"&gt;
@@ -73,10 +75,10 @@
 &nbsp;
 </p>
 <button id="btn1" onclick="cop('#nav1')">Copy</button></strong></code></pre>
-    </div>
-    <div class="col-md-6 col-sm-6 col-xs-6 text-center">
-        <h2 style="color: white;">Simple Navbar CSS</h2>
-            <pre><code>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                <h2 style="color: white;">Simple Navbar CSS</h2>
+                <pre><code>
     <kbd style="font-size: 30px;">CSS</kbd>
      <p id="navcss">
      <b>
@@ -111,7 +113,7 @@ li a:hover:not(.active) {
 &lt;/style&gt;</b>
 </p>
 <button id="btn2" onclick="cop('#navcss')">Copy</button></code></pre>
-<pre><code>
+                <pre><code>
     <kbd style="font-size: 25px;">HTML</kbd>
     <p id="navhtml">
 &lt;ul&gt;
@@ -123,24 +125,47 @@ li a:hover:not(.active) {
 </p>
 <button id="btn3" onclick="cop('#navhtml')">Copy</button>
 </code></pre>
+            </div>
         </div>
-    </div>
-    <!--Row Ends-->
-<hr>
-    <!--New Row-->
-    <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-6 text-center">
-            <h2 style="color: white;">Logo Linking</h2>
-        <pre><code>
+        <!--Row Ends-->
+        <hr>
+        <!--New Row-->
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                <h2 style="color: white;">Logo Linking</h2>
+                <!--Logo Linking-->
+                <pre><code>
             <b><p id="logo">
        &lt;link rel="icon" href="logo.png" type="image/png"/&gt;
        </p>
 <button id="btn4" onclick="cop('#logo')">Copy</button>
             </b></code></pre>
+                <!-- -->
+                <h2 style="color: white;">Abs Center Is Responsive</h2>
+                <!--Abs Centering and Is responsive-->
+                <pre><code>
+            <b><p id="abs">
+.Absolute-Center {
+&nbsp;&nbsp;margin: auto;
+&nbsp;&nbsp;position: absolute;
+&nbsp;&nbsp;top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+&nbsp;&nbsp;width: 50%; 
+&nbsp;&nbsp;height: 50%;
+&nbsp;&nbsp;min-width: 200px;
+&nbsp;&nbsp;max-width: 400px;
+&nbsp;&nbsp;padding: 40px;
+}
+       </p>
+<button id="btn4" onclick="cop('#abs')">Copy</button>
+            </b></code></pre>
+                <!--Over-->
             </div>
-<div class="col-md-6 col-sm-6 col-xs-6 text-center">
-    <h2 style="color: white;">Carousel</h2>
-    <pre><code>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                <h2 style="color: white;">Carousel</h2>
+                <pre><code>
         <kbd style="font-size: 30px;">CSS</kbd>
         <p id="caracss">
         <b>&lt;style&gt;
@@ -153,8 +178,8 @@ li a:hover:not(.active) {
   </p>
   <button id="btn5" onclick="cop('#caracss')">Copy</button>
   </code>
-  </pre>  
-<pre><code>
+  </pre>
+                <pre><code>
   <kbd style="font-size: 25px;">HTML</kbd>
   <p id="carahtml">
   <b>&lt;div class="container"&gt;
@@ -211,15 +236,18 @@ li a:hover:not(.active) {
 </p>
 <button id="btn6" onclick="cop('#carahtml')">Copy</button>
   </code></pre>
-</div>
-<div class="container-fluid">
-<div class="row">
-    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-        <a href="https://aravindhsiva.github.io/page.html" target="_blank"><h1>Designed by Aravindh.S</h1></a>
-    </div>
-</div>
-</div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                        <a href="https://aravindhsiva.github.io/page.html" target="_blank">
+                            <h1>Designed by Aravindh.S</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
